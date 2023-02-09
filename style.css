@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#title {
+  background-color: aqua;
+  font-family: "Concert one";
+}
+
+#main-content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: "Concert one";
+}
+
+#start {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(7, 78, 133);
+  border-radius: 10px;
+  margin: 100px;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#startGm {
+  height: 50px;
+  width: 100px;
+}
+
+#resetGm {
+  height: 50px;
+  width: 100px;
+}
+
+#game {
+  margin: 50px;
+}
+
+#inputTurn {
+  font-family: "Concert one";
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 50px;
+  background-color: black;
+}
+
+#keys {
+  height: 300px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 10px solid rgb(36, 15, 112);
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btnKey {
+  font-weight: bold;
+  color: black;
+  font-family: "Concert one";
+  background-color: rgb(111, 206, 211);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto jogo da velha</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1 id="title">Jogo da velha</h1>
+    <main id="main-content">
+      <div id="start">
+        <label for="player1" value="ana">Jogador 1:</label>
+        <input type="text" name="player1" id="player1" />
+        <label for="player2">Jogador 2:</label>
+        <input type="text" name="player2" id="player2" />
+        <button id="startGm">Começar o jogo</button>
+        <button id="resetGm">Reiniciar</button>
+      </div>
+      <div id="game">
+        <h2>Sua vez:</h2>
+        <input type="text" name="" id="inputTurn" disabled />
+        <div id="keys">
+          <button class="btnKey" id="btn00"></button>
+          <button class="btnKey" id="btn01"></button>
+          <button class="btnKey" id="btn02"></button>
+          <button class="btnKey" id="btn03"></button>
+          <button class="btnKey" id="btn04"></button>
+          <button class="btnKey" id="btn05"></button>
+          <button class="btnKey" id="btn06"></button>
+          <button class="btnKey" id="btn07"></button>
+          <button class="btnKey" id="btn08"></button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
